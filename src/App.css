@@ -1,0 +1,77 @@
+  .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(194, 194, 214);
+} 
+
+.firstDiv{
+  display: flex;
+  text-align: center;
+  padding: 0px 6px;
+}
+
+
+.calculator{
+  background-attachment: scroll;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(71, 71, 107);
+  display: block;
+  padding: 0px 10px;
+  position: relative;
+  width: 320px;
+  height: 470px;
+  font-family: Share Tech Mono, monospace;
+  color: #fff;
+  text-align: center;
+
+}
+
+.calculator p{
+  font-size: 17px;
+  color: rgb(157, 112, 240);
+}
+
+
+
+.calculator input{
+  color: #fff;
+  font-size: 29px;
+  line-height: 35px;
+  outline: rgb(0, 0, 0);
+  margin: auto;
+  display: inline-block;
+}
+.button-wrapper{
+  padding: 1px 6px;
+  text-align: center;
+  display: inline-block;
+  outline: 1px solid black;
+  font: 20px;
+}
+
+.button-wrapper:hover{
+  transform: scale(1);
+  outline: #ebe1e1;
+  color: black;
+  align-items: flex-start;
+}
+
+.last{
+  position: relative;
+  top: -66px;
+  left: -39px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
